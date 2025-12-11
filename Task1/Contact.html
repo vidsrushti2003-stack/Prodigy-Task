@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Nature Explorers</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background: url('Kochi.png') center/cover no-repeat fixed;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .nav-link ul li a:hover{
+      background-color: black;
+      color: white;
+      border-radius: 6px;
+      transition: 0.3s;
+    }
+
+    .contact-content {
+      text-align: center;
+      color: white;
+      margin-top: 150px; 
+      line-height: 1.6;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 20px;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background-color: rgba(0,0,0,0.3);
+      z-index: -1;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 30%;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 5px;
+      border: none;
+      font-size: 10px;
+    }
+
+    .contact-form button {
+      padding: 10px 20px;
+      font-size: 10px;
+      font-weight: bold;
+      border: none;
+      border-radius: 40px;
+      cursor: pointer;
+      background-color: white;
+      color: black;
+      transition: 0.3s;
+    }
+
+    .contact-form button:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .contact-info p {
+      margin: 8px 0;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">𝓝𝓐𝓣𝓤𝓡𝓔✨</a>
+    <div class="nav-link">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="contact-content">
+    <h1>Contact Us</h1><br>
+    <p>We’d love to hear from you! Reach out with any questions, suggestions, or to book your nature adventure.</p>
+
+    <div class="contact-info">
+      <p>📧 Email: natureexplorers@example.com</p>
+      <p>📞 Phone: +91 98765 *****  </p>
+      <p>🏠 Address: Kochi, Kerala, India</p>
+    </div>
+
+    <div class="contact-form">
+      <input type="text" placeholder="Your Name" required><br>
+      <input type="email" placeholder="Your Email" required><br>
+      <textarea rows="5" placeholder="Your Message" required></textarea><br>
+      <button type="submit">Send Message</button>
+    </div>
+
+    <p>We respond within 24 hours. Let’s plan your next adventure together!</p>
+  </div>
+
+</body>
+</html>
